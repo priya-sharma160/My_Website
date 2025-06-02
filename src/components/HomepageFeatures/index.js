@@ -37,7 +37,7 @@ const FeatureList = [
   },
   {
     title: "LinkedIn",
-    link: "docs/category/latex",
+    link: "https://www.linkedin.com/login",
     Svg: require("@site/static/img/link.svg").default,
     description: (
       <>

@@ -17,12 +17,12 @@ const config = {
   url: "https://priya-sharma160.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/My_Website/",
+  baseUrl: "/week7-lab3/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "priya-sharma160", // Usually your GitHub org/user name.
-  projectName: "My_Website", // Usually your repo name.
+  projectName: "week7-lab3", // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: "gh-pages",
 
@@ -92,7 +92,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/FedericoTartarini",
+            href: "https://github.com/priya-sharma160",
             position: "right",
             className: "header--github-link",
             "aria-label": "GitHub repository",
@@ -122,7 +122,7 @@ const config = {
             items: [
               {
                 label: "LinkedIn",
-                href: "https://www.linkedin.com/in/federico-tartarini/",
+                href: "https://www.linkedin.com/",
               },
             ],
           },
@@ -140,16 +140,14 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Federico Tartarini. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Priya Sharma. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
-  stylesheets: ["https://fonts.googleapis.com/icon?family=Material+Icons"],
- 
-  
+  stylesheets: ["https://fonts.googleapis.com/icon?family=Material+Icons"], 
 };
 
 export default config;
